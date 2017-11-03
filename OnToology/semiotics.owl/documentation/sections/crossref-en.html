@@ -1,0 +1,973 @@
+<h2  id="crossreference" class="list">Cross reference for [Ontology Name] classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by [Ontology Name].
+<div id="classes">
+   <h3 id="classes" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"
+            title="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">agent</a>
+      </li>
+      <li>
+         <a href="#Expression"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression">Expression</a>
+      </li>
+      <li>
+         <a href="#InformationEntity"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+      </li>
+      <li>
+         <a href="#LinguisticAct"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#LinguisticAct">Linguistic act</a>
+      </li>
+      <li>
+         <a href="#Manifestation"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation">
+            <span>manifestation</span>
+         </a>
+      </li>
+      <li>
+         <a href="#Meaning"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+      </li>
+      <li>
+         <a href="#Reference"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
+      <h3>agent<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent</p>
+      <div class="comment">
+         <span class="markdown">An agent playing some role in a linguistic act</span>
+      </div>
+   </div>
+   <div class="entity" id="Expression">
+      <h3>Expression<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression</p>
+      <div class="comment">
+         <span class="markdown">
+Any information that either dul:expresses a Meaning or denotes a Reference
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#expresses"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses">expresses</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Meaning"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#InformationEntity"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#hasManifestation"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation">semiotics.owl#hasManifestation</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Manifestation"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation">manifestation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#expresses"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses">expresses</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isExpressedBy"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isExpressedBy">is expressed by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InformationEntity">
+      <h3>InformationEntity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity</p>
+      <div class="comment">
+         <span class="markdown">
+Either an information object (expression) or its realization (manifestation).
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Expression"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression">Expression</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">or</span> 
+            <a href="#Manifestation"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation">manifestation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>(<a href="#denotes"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">denotes</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Reference"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+            <sup class="type-c" title="class">c</sup>) <span class="logic">or</span> (<a href="#hasInterpretant"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">has interpretant</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Meaning"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+            <sup class="type-c" title="class">c</sup>)</dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Expression"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression">Expression</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Manifestation"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation">manifestation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#denotes"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">denotes</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasInterpretant"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">has interpretant</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasManifestation"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation">semiotics.owl#hasManifestation</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isDenotedBy"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy">is denoted by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isInterpretantFor"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor">is interpretant for</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isManifestationOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf">semiotics.owl#isManifestationOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="LinguisticAct">
+      <h3>Linguistic act<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#LinguisticAct</p>
+      <div class="comment">
+         <span class="markdown">
+A communicative situation including expressions, agents, and the semiotic elements: physical (manifestations), conceptual (meanings), and referential (references).
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation">situation</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor">is setting for</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"
+               title="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">agent</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor">is setting for</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Expression"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression">Expression</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor">is setting for</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Manifestation"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation">manifestation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor">is setting for</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Meaning"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor">is setting for</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Reference"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Manifestation">
+      <h3>manifestation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#isManifestationOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf">semiotics.owl#isManifestationOf</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#InformationEntity"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#InformationEntity"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isManifestationOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf">semiotics.owl#isManifestationOf</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasManifestation"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation">semiotics.owl#hasManifestation</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Meaning">
+      <h3>Meaning<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning</p>
+      <div class="comment">
+         <span class="markdown">
+Any conceptualization that isExpressedBy an Expression, or isInterpretationOf a Reference
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>(<a href="#isConceptualizationOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isConceptualizationOf">is conceptualization of</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Reference"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+            <sup class="type-c" title="class">c</sup>) <span class="logic">or</span> (<a href="#isInterpretantFor"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor">is interpretant for</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#InformationEntity"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+            <sup class="type-c" title="class">c</sup>)</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isConceptualizationOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isConceptualizationOf">is conceptualization of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isExpressedBy"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isExpressedBy">is expressed by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isInterpretantFor"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor">is interpretant for</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#relatedMeaning"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#relatedMeaning">related meaning</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#expresses"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses">expresses</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasConceptualization"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasConceptualization">has conceptualization</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasInterpretant"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">has interpretant</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#relatedMeaning"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#relatedMeaning">related meaning</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Reference">
+      <h3>Reference<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference</p>
+      <div class="comment">
+         <span class="markdown">
+Anything that isDenotedBy an Expression, or that hasInterpretation some Meaning
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>(<a href="#hasConceptualization"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasConceptualization">has conceptualization</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Meaning"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+            <sup class="type-c" title="class">c</sup>) <span class="logic">or</span> (<a href="#isDenotedBy"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy">is denoted by</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#InformationEntity"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+            <sup class="type-c" title="class">c</sup>)</dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasConceptualization"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasConceptualization">has conceptualization</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isDenotedBy"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy">is denoted by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#denotes"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">denotes</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isConceptualizationOf"
+               title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isConceptualizationOf">is conceptualization of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#denotes"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">denotes</a>
+      </li>
+      <li>
+         <a href="#expresses"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses">expresses</a>
+      </li>
+      <li>
+         <a href="#hasConceptualization"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasConceptualization">has conceptualization</a>
+      </li>
+      <li>
+         <a href="#hasInterpretant"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">has interpretant</a>
+      </li>
+      <li>
+         <a href="#isConceptualizationOf"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isConceptualizationOf">is conceptualization of</a>
+      </li>
+      <li>
+         <a href="#isDenotedBy"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy">
+            <span>is denoted by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#isExpressedBy"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isExpressedBy">
+            <span>is expressed by</span>
+         </a>
+      </li>
+      <li>
+         <a href="#isInterpretantFor"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor">
+            <span>is interpretant for</span>
+         </a>
+      </li>
+      <li>
+         <a href="#relatedMeaning"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#relatedMeaning">related meaning</a>
+      </li>
+      <li>
+         <a href="#hasManifestation"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation">semiotics.owl#hasManifestation</a>
+      </li>
+      <li>
+         <a href="#isManifestationOf"
+            title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf">semiotics.owl#isManifestationOf</a>
+      </li>
+   </ul>
+   <div class="entity" id="denotes">
+      <h3>denotes<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes</p>
+      <div class="comment">
+         <span class="markdown">
+A relation between expressions and anything (including expressions). It can be used to talk about e.g. entities denoted by proper nouns: the proper noun 'Leonardo da Vinci' denotes the person Leonardo da Vinci; as well as to talk about sets of entities that can be described by a common noun: the common noun 'person' denotes the collection of all persons in a domain of discourse. In OWL2, punning can be used to represent denotation of concept names with owl class extensions, e.g. 'mouse' denotes owl:Class:Mouse.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#InformationEntity"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reference"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isDenotedBy"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy">is denoted by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-property chains</dt>
+            <dd>
+               <a href="#isManifestationOf"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf">semiotics.owl#isManifestationOf</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">o</span> 
+               <a href="#denotes"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">denotes</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="expresses">
+      <h3>expresses<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses</p>
+      <div class="comment">
+         <span class="markdown">
+A relation between an Expression and a Meaning. For example: 'A Beehive is a structure in which bees are kept, typically in the form of a dome or box.' (Oxford dictionary)'; 'the term Beehive expresses the concept Beehive in my apiculture ontology'. The intuition for 'meaning' is intended to be very broad. A separate, large comment is included for those who want to investigate more on what kind of meaning can be represented in what form.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#hasInterpretant"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">has interpretant</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Expression"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression">Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isExpressedBy"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isExpressedBy">is expressed by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasConceptualization">
+      <h3>has conceptualization<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasConceptualization</p>
+      <div class="comment">
+         <span class="markdown">
+The relation between a Meaning and a Reference : a Meaning conceptualizes an entity or a collection of entities. A same Reference can be given different conceptualizations, for example, an old cradle can be given a unifying Meaning based on the original aesthetic design, the functionality it was built for, or a new aesthetic functionality in which it can be used as a flower pot. Example: myoldcradle hasConceptualization FlowerPot. In OWL2, punning can be used to use the intension of an OWL class as a meaning, e.g. myoldcradle hasConceptualization owl:Class:FlowerPot.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reference"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isConceptualizationOf"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isConceptualizationOf">is conceptualization of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasInterpretant">
+      <h3>has interpretant<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant</p>
+      <div class="comment">
+         <span class="markdown">
+The Peircean interpretant relation, widely adopted in semiotics: an Expression isInterpretantFor another, e.g. fourLeggedFriendOfHumans isInterpretantFor dog. Synonymy, translation, associativity, and topical proximity are all sources for interpretants, e.g.: domestic dog isInterpretantFor dog (synonymy); cane isInterpretantFor dog (translation); bark isInterpretantFor dog (associativity); veterinary isInterpretantFor dog (topical proximity). Semantic mechanisms such as metonymy depend on the interpretant relation. The interpretant relation is here taken as very broad, also accepting Manifestation(s) as interpretants.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#expresses"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses">expresses</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#InformationEntity"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isInterpretantFor"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor">is interpretant for</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-property chains</dt>
+            <dd>
+               <a href="#isManifestationOf"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf">semiotics.owl#isManifestationOf</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">o</span> 
+               <a href="#hasInterpretant"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">has interpretant</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isConceptualizationOf">
+      <h3>is conceptualization of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isConceptualizationOf</p>
+      <div class="comment">
+         <span class="markdown">
+The relation between a Meaning and a Reference : a Meaning conceptualizes an entity or a collection of entities. A same Reference can be given different conceptualizations, for example, an old cradle can be given a unifying Meaning based on the original aesthetic design, the functionality it was built for, or a new aesthetic functionality in which it can be used as a flower pot. Example: myoldcradle hasConceptualization FlowerPot. In OWL2, punning can be used to use the intension of an OWL class as a meaning, e.g. myoldcradle hasConceptualization owl:Class:FlowerPot.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Reference"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasConceptualization"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasConceptualization">has conceptualization</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isDenotedBy">
+      <h3>is denoted by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy</p>
+      <div class="comment">
+         <span class="markdown">
+A relation between expressions and anything (including expressions). It can be used to talk about e.g. entities denoted by proper nouns: the proper noun 'Leonardo da Vinci' denotes the person Leonardo da Vinci; as well as to talk about sets of entities that can be described by a common noun: the common noun 'person' denotes the collection of all persons in a domain of discourse. In OWL2, punning can be used to represent denotation of concept names with owl class extensions, e.g. 'mouse' denotes owl:Class:Mouse.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Reference"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference">Reference</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#InformationEntity"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#denotes"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">denotes</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-property chains</dt>
+            <dd>
+               <a href="#isDenotedBy"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy">is denoted by</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">o</span> 
+               <a href="#hasManifestation"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation">semiotics.owl#hasManifestation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isExpressedBy">
+      <h3>is expressed by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isExpressedBy</p>
+      <div class="comment">
+         <span class="markdown">
+A relation between an Expression and a Meaning. For example: 'A Beehive is a structure in which bees are kept, typically in the form of a dome or box.' (Oxford dictionary)'; 'the term Beehive expresses the concept Beehive in my apiculture ontology'. The intuition for 'meaning' is intended to be very broad. A separate, large comment is included for those who want to investigate more on what kind of meaning can be represented in what form.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#isInterpretantFor"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor">is interpretant for</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Expression"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression">Expression</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#expresses"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses">expresses</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isInterpretantFor">
+      <h3>is interpretant for<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor</p>
+      <div class="comment">
+         <span class="markdown">
+The Peircean interpretant relation, widely adopted in semiotics: an Expression isInterpretantFor another, e.g. fourLeggedFriendOfHumans isInterpretantFor dog. Synonymy, translation, associativity, and topical proximity are all sources for interpretants, e.g.: domestic dog isInterpretantFor dog (synonymy); cane isInterpretantFor dog (translation); bark isInterpretantFor dog (associativity); veterinary isInterpretantFor dog (topical proximity). Semantic mechanisms such as metonymy depend on the interpretant relation. The interpretant relation is here taken as very broad, also accepting Manifestation(s) as interpretants.
+</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#isExpressedBy"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isExpressedBy">is expressed by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#InformationEntity"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasInterpretant"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">has interpretant</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has sub-property chains</dt>
+            <dd>
+               <a href="#isInterpretantFor"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor">is interpretant for</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">o</span> 
+               <a href="#hasManifestation"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation">semiotics.owl#hasManifestation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="relatedMeaning">
+      <h3>related meaning<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#relatedMeaning</p>
+      <div class="comment">
+         <span class="markdown">A relation between any two Meaning(s).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> symmetric</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Meaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning">Meaning</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#relatedMeaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#relatedMeaning">related meaning</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#relatedMeaning"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#relatedMeaning">related meaning</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasManifestation">
+      <h3>semiotics.owl#hasManifestation<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#InformationEntity"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Manifestation"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation">manifestation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isManifestationOf"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf">semiotics.owl#isManifestationOf</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isManifestationOf">
+      <h3>semiotics.owl#isManifestationOf<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl">http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Manifestation"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation">manifestation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#InformationEntity"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity">InformationEntity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasManifestation"
+                  title="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation">semiotics.owl#hasManifestation</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

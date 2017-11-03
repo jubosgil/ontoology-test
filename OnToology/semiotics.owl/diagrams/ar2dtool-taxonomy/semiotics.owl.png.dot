@@ -1,0 +1,9 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "semiotics:Manifestation" "semiotics:LinguisticAct" "semiotics:InformationEntity" "situation:Situation" "semiotics:Expression" ; /*classes style*/
+	"semiotics:Manifestation" -> "semiotics:InformationEntity" [ label = "rdfs:subClassOf" ];
+	"semiotics:Expression" -> "semiotics:InformationEntity" [ label = "rdfs:subClassOf" ];
+	"semiotics:LinguisticAct" -> "situation:Situation" [ label = "rdfs:subClassOf" ];
+
+}

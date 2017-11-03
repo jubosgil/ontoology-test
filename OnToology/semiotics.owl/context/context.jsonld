@@ -1,0 +1,109 @@
+{
+  "@context" : {
+    "Situation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "isSettingFor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor",
+      "@type" : "@id"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "isInterpretantFor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isInterpretantFor",
+      "@type" : "@id"
+    },
+    "isDenotedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isDenotedBy",
+      "@type" : "@id"
+    },
+    "extractedFrom" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#extractedFrom"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasInterpretant" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant",
+      "@type" : "@id"
+    },
+    "Expression" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression"
+    },
+    "hasConceptualization" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasConceptualization",
+      "@type" : "@id"
+    },
+    "Agent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"
+    },
+    "expresses" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#expresses",
+      "@type" : "@id"
+    },
+    "relatedMeaning" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#relatedMeaning",
+      "@type" : "@id"
+    },
+    "InformationEntity" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#InformationEntity"
+    },
+    "hasAuthor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasAuthor"
+    },
+    "relatedCPs" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#relatedCPs"
+    },
+    "Meaning" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Meaning"
+    },
+    "isConceptualizationOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isConceptualizationOf",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "isExpressedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isExpressedBy",
+      "@type" : "@id"
+    },
+    "denotes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes",
+      "@type" : "@id"
+    },
+    "coversRequirements" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#coversRequirements"
+    },
+    "isManifestationOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#isManifestationOf",
+      "@type" : "@id"
+    },
+    "Manifestation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Manifestation"
+    },
+    "hasConsequences" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasConsequences"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "LinguisticAct" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#LinguisticAct"
+    },
+    "hasComponent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#hasComponent"
+    },
+    "hasManifestation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#hasManifestation",
+      "@type" : "@id"
+    },
+    "Reference" : {
+      "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Reference"
+    }
+  }
+}
